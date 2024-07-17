@@ -9,10 +9,12 @@ contract FirstApp {
         return count;
     }
 
+    // 增加
     function inc() public {
         count = count + 1;
     }
 
+    // 减少
     function des() public {
         count = count - 1;
     }
