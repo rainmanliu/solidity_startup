@@ -43,4 +43,10 @@ contract DataType {
     }
 
     address randomAddr1 = randomAddress();
+
+    // bytes类 静态字节
+    bytes1 bytesA = "1"; // 一个字符
+    bytes1 bytesB = 0xb1; // 
+    bytes5 bytsC = "12345";
+    // #
 }

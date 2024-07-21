@@ -7,33 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "i8",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "intMy",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isTrue",
+				"name": "isOneEther",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -46,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "maxInt128",
+				"name": "isOneGwei",
 				"outputs": [
 					{
-						"internalType": "int128",
+						"internalType": "bool",
 						"name": "",
-						"type": "int128"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -59,12 +33,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "minInt128",
+				"name": "isOneWei",
 				"outputs": [
 					{
-						"internalType": "int128",
+						"internalType": "bool",
 						"name": "",
-						"type": "int128"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -72,20 +46,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "randomAddress",
+				"name": "isOtherOneEther",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bool",
 						"name": "",
-						"type": "address"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "u256",
+				"name": "isOtherOneGwei",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oneEther",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -98,12 +85,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "u8",
+				"name": "oneGwei",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -111,7 +98,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "unitMy",
+				"name": "oneWei",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -136,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/03_datatype.sol": "DataType"
+			"contracts/08_ether_wei.sol": "EtherUnit"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -150,12 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/03_datatype.sol": {
-			"keccak256": "0x31ece7a2b6f3ee28a62ab5f1b53e90e665018aca75fccb0a39a322e25ed8cbd3",
+		"contracts/08_ether_wei.sol": {
+			"keccak256": "0x0f5ba3d7ca93b64e644be59347a1a254d9df9e782b762a367d76bf606a2bd52b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://080bff32456153201274e3855732e4ccdeed34368dfc3c59d51539f56df17378",
-				"dweb:/ipfs/QmRs1hEHnrG7fM78YtwS7DnjvzmKwHSxRPf6CtZBW4jpuW"
+				"bzz-raw://8fe21904548a05de17790446091ca8375b402d0d35f7140510a873af67170546",
+				"dweb:/ipfs/QmZDQ5XQwv5SZQ8DqtmKdemGmeTFb3u58QCRfr9i7AVBRw"
 			]
 		}
 	},
