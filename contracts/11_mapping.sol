@@ -9,10 +9,9 @@ contract getMapping {
         return myMap[addr];
     }
 
-    function getMap() public view returns (mapping(address=>uint256) memory) {
-        return myMap;
-    }
-
+    // function getMap() public view returns (mapping(address=>uint256) memory) {
+    //     return myMap;
+    // }
 
     function setValue(address addr, uint256 value) public {
         myMap[addr] = value;
