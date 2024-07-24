@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "p",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "myName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "sex",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "从另一个包中引入 struct",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16_structs_import.sol": "structImport"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_structs.sol": {
+			"keccak256": "0x760e9afd2fee59bf98fd1dff3ad51bf9096ec40e79b65884fe0c9b8ec37e6181",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d8668a711bd47928872fd7f772789a656faf5a0becfbd99414b39da628fe84b",
+				"dweb:/ipfs/Qmdr2P4xKKVF6UFR7FrYUvKjf8YTci4Pd7anUVwRWvzifk"
+			]
+		},
+		"contracts/16_structs_import.sol": {
+			"keccak256": "0xf44543b82a244f7c55556ba99dbf91d56e22f979e1317d24a62edcb66d985ba3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15152c77fbadbe30cf28a42f95d7a741fbeb728518db7e2c52dfc0c7a0657b30",
+				"dweb:/ipfs/QmTLDKVKgFHvUgXxPAYZUPCgBLzngPzQadpnM5cWZmuobn"
+			]
+		}
+	},
+	"version": 1
+}
